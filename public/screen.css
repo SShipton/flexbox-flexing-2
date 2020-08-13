@@ -9,4 +9,49 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+li+li {
+  margin-left: 1rem;
+}
+
+footer ul {
+  color: black;
+}
+
+header ul {
+  color: white;
+  background-color: #00bfd5;
+  padding: .1rem 0 .1rem 0;
+}
+
+footer {
+  background-color: #d3d3d3;
+  padding: .1rem 0 .1rem 0;
+}
+
+.bodyHeader {
+  margin-bottom: .7rem;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.body {
+  font-size: 18px;
+}
+
+.kittehsOfTheDay {
+  display: flex;
+  flex-direction: row-reverse;
 }
